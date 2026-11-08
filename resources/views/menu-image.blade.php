@@ -1,0 +1,2 @@
+<img src="{{ $menuImageItem?->imageUrl() ?? asset('images/icons/menu-placeholder.png') }}" alt="{{ $menuImageItem?->name ?? 'Menu item' }}" class="{{ $menuImageClass ?? 'aspect-square w-full object-cover' }}" width="{{ $menuImageWidth ?? 720 }}" height="{{ $menuImageHeight ?? 480 }}" loading="lazy" decoding="async" data-menu-image data-image-fallback="{{ asset('images/icons/menu-placeholder.png') }}">
+
